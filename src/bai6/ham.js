@@ -33,3 +33,11 @@ let sum3 = (a , b , c) => {
     return a  + b  + c; 
 }
 console.log(sum3(1,2,3)) ; 
+
+//Scope 
+/*
+
+bien so trong ngoc nhon 
+khac nhau giua var va let
+
+*/ 

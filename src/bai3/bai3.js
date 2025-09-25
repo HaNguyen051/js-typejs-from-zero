@@ -13,4 +13,5 @@ let myAge = '20' ;
 //cach cong chuoi 
 
 console.log("Name:" , myName, ", Age:" , myAge) ; 
-console.log(myName , myAge)
+console.log(myName , myAge) ; 
+

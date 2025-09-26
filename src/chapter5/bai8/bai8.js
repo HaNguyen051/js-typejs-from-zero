@@ -26,3 +26,18 @@ console.log(names) ;
 names.push(1 , "oke>") ; 
 console.log(names) ; 
 
+const myClass = ["ha nguyen" , "hane" , "thao van" , "thu trang"] ; 
+//duyet mang bth
+for(let i = 0 ; i < myClass.length ; i++){
+    console.log("i = " ,i ,"with value =" ,myClass[i]) ; 
+}
+//foreach
+
+myClass.forEach(function(value , index){
+    console.log(value, index) ; 
+})
+//for each theo arrow function 
+
+myClass.forEach((value,key)=>{
+    console.log(value , key) ; 
+})

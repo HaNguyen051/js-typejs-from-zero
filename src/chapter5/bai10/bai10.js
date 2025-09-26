@@ -24,13 +24,40 @@ const person = {
     ages : 19  , 
 }
 //get data 
-
 console.log(person.ages) ; 
+
 //set data
 person.address = "tu son" ; 
 console.log(person) ; 
-//delete data  
 
+//delete data  
 delete person.ages ; 
 console.log(person) ; 
 
+//object su dung for..in , for..off
+//forEach
+student.forEach((value , key)=>{
+    console.log("key :" , key , "address : " , value.address) ; 
+})
+
+//for..in : duyet qua tat ca cac thuoc tinh 
+const person1 = {
+    myName : "haNguyen" , 
+    ages : 19  , 
+    address  : "ha noi"
+}
+for(let key in person1)
+{
+        console.log(key , person1[key]) ; 
+}
+//for..of : lay gia tri 
+
+// for(let value of Object.values(person1))
+// {
+//     console.log(value) ; 
+// }
+
+for(let value of Object.entries(person1))
+{
+    console.log(value) ; 
+}

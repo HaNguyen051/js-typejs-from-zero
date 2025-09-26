@@ -19,6 +19,12 @@ scores.forEach((x,key) =>{
 const scores2 = scores.map((x,key)=>{
     return x * 2 ; 
 })
+console.log("orignal" ,scores) ; 
+console.log("scoresX2" , scores2) ;  
+//filter : lọc phần tử (return true || false )
+const scoresThanFive = scores.filter((item,key)=>{
+    return  item > 5; 
+}) ; 
+console.log("scoresFive : " , scoresThanFive) ; 
 
-console.log(scores) ; 
-console.log(scores2) ; 
+

@@ -62,7 +62,7 @@ const productStock = products.filter((value , key) => value.isStock === true)
 
 console.log("7.sản phẩm còn hàng: " , productStock) ; 
 
-
+//pr1
 for (const key in products[0]) {
     console.log(key , products[0][key]) ; 
 }

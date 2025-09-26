@@ -17,5 +17,20 @@ const student2 = {
     }
 }
 const student =[student1 , student2] ; 
-
 console.log(student) ; 
+
+const person = {
+    myName : "haNguyen" , 
+    ages : 19  , 
+}
+//get data 
+
+console.log(person.ages) ; 
+//set data
+person.address = "tu son" ; 
+console.log(person) ; 
+//delete data  
+
+delete person.ages ; 
+console.log(person) ; 
+

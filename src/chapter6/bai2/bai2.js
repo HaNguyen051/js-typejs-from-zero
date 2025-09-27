@@ -7,4 +7,4 @@ console.log(item) ;
 const handelClick = () => {
     console.log("kimochi") ; 
 }
-item.addEventListener("click" ,handelClick)
+item.addEventListener("click" ,handelClick) ;

@@ -5,6 +5,8 @@ const myText = document.getElementById('myTitle') ;
 
 myBtnElement.addEventListener('click' , ()=>{
     console.log('da kich hoat') ; 
+    //ham co san thong bao tren giao dien
+    alert("thành công!") ; 
     myText.innerText = "Move to page orther" ; 
     myText.style.color = "red" ; 
     myText.style.backgroundColor = 'green' ; 

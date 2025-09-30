@@ -4,7 +4,7 @@
 const tmp = fetch("http://localhost:8000/users") 
 
 tmp
-    .then(data => data.json())
+    .then(data => data.json()) //promise 
     .then(d =>{console.log(d)}) ; 
 
 

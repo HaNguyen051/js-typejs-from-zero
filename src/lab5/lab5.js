@@ -3,8 +3,6 @@
 const fetchData  = async() => {
     const tmp  = await fetch ("http://localhost:8000/users") ; 
     const data = await tmp.json() ; 
-    console.log(data) ; 
-
     //insert data to html 
     const tbody = document.querySelector("#users tbody") ; 
 

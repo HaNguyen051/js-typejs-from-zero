@@ -6,7 +6,9 @@ const doSomething = ()=>{
         throw new Error("thuc hien chia cho 0") ; 
     }
     return console.log(a / b) ; 
-}
+} ; 
+
+
 try {
     doSomething() ; 
 } catch (error) {

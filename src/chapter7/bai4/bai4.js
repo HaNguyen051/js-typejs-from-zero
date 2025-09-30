@@ -12,7 +12,7 @@ fetch("http://localhost:8000/users")
 
 const fetchData = async() =>{
     const res = await fetch("http://localhost:8000/users")  ; 
-    const data = await res.json() ; 
+    const data = await res.json() ; //chuyen tu promise sang object
     console.log("fetch async/await" , data) ; 
 }
 fetchData() ; 
